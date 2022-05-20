@@ -848,6 +848,65 @@ blockquote:after,
     top: -2%;
     right: -20%;
 }
+
+/* Rollongo mod */
+.btn-primary {
+	color: #f27d16;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #f27d16;
+    padding: 9px 19px 7px 19px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.btn-primary:hover, 
+.btn-primary:focus,
+.btn-primary:active{
+	color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: #f27d16;
+}
+.btn-primary:before,
+.btn-primary:after {
+	content: '';
+    position: absolute;
+    width: 90%;
+    height: 200%;
+    background-color: #f27d16;
+    z-index: -1;
+    -webkit-transform: rotate(-20deg);
+       -moz-transform: rotate(-20deg);
+    	-ms-transform: rotate(-20deg);
+    	 -o-transform: rotate(-20deg);
+    		transform: rotate(-20deg);
+
+    -webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+		-ms-transition: all .25s ease;
+		 -o-transition: all .25s ease;
+			transition: all .25s ease;
+}
+.btn-primary:before {
+    top: -170%;
+    left: -75%;
+}
+.btn-primary:after {
+    top: -2%;
+    right: -102%;
+}
+.btn-primary:hover:before {
+    top: -95%;
+    left: -20%;
+}
+.btn-primary:hover:after {
+    top: -2%;
+    right: -20%;
+}
+
+
 /*=======================
 	End Custom btn Style
 =================================*/
@@ -2990,6 +3049,11 @@ div#filters {
 	text-transform: uppercase;
 	padding-top: 3px;
 }
+
+
+
+
+
 
 
 /*=======================
