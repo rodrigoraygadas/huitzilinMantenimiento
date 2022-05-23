@@ -852,7 +852,7 @@ blockquote:after,
 /* Rollongo mod */
 .btn-primary {
 	color: #f27d16;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
     background-color: transparent;
@@ -866,7 +866,7 @@ blockquote:after,
 .btn-primary:focus,
 .btn-primary:active{
 	color: rgb(0, 0, 0);
-    background-color: transparent;
+    background-color: #f27d16 !important;
     border-color: #f27d16;
 }
 .btn-primary:before,
@@ -877,11 +877,11 @@ blockquote:after,
     height: 200%;
     background-color: #f27d16;
     z-index: -1;
-    -webkit-transform: rotate(-20deg);
-       -moz-transform: rotate(-20deg);
-    	-ms-transform: rotate(-20deg);
-    	 -o-transform: rotate(-20deg);
-    		transform: rotate(-20deg);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+    	-ms-transform: rotate(-45deg);
+    	 -o-transform: rotate(-45deg);
+    		transform: rotate(-deg);
 
     -webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
@@ -905,6 +905,63 @@ blockquote:after,
     top: -2%;
     right: -20%;
 }
+
+.btn-info {
+	color: #c22622;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #c22622;
+    padding: 9px 19px 7px 19px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.btn-info:hover, 
+.btn-info:focus,
+.btn-info:active{
+	color: rgb(255, 255, 255);
+    background-color: #c22622 !important;
+    border-color: #c22622;
+}
+.btn-info:before,
+.btn-info:after {
+	content: '';
+    position: absolute;
+    width: 90%;
+    height: 200%;
+    background-color: #c22622;
+    z-index: -1;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+    	-ms-transform: rotate(-45deg);
+    	 -o-transform: rotate(-45deg);
+    		transform: rotate(-deg);
+
+    -webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+		-ms-transition: all .25s ease;
+		 -o-transition: all .25s ease;
+			transition: all .25s ease;
+}
+.btn-info:before {
+    top: -170%;
+    left: -75%;
+}
+.btn-info:after {
+    top: -2%;
+    right: -102%;
+}
+.btn-info:hover:before {
+    top: -95%;
+    left: -20%;
+}
+.btn-info:hover:after {
+    top: -2%;
+    right: -20%;
+}
+
 
 
 /*=======================
@@ -1164,7 +1221,6 @@ section{
 }
 
 
-
 .bg-page-header{
 	background: url(../../assets/images/home01/bg-page-header.jpg) no-repeat;
 	background-size: cover;
@@ -1179,6 +1235,24 @@ section{
 	margin: 0;
 	padding: 124px 0 104px 0;
 }
+
+/*Rollongo*/
+.bg-page-header2{
+	background: url(../../assets/images/home01/bg-page-header2.jfif) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.page-header-overlay2{
+	background: rgba(242, 125, 22, 0.5);
+}
+.bg-page-header2 .page-header{
+	text-align: center;
+	border-bottom: none;
+	margin: 0;
+	padding: 124px 0 104px 0;
+}
+
+
 .page-title h2{
 	color: #fff;
 	line-height: 23px;
@@ -4139,6 +4213,7 @@ div#filters {
 }
 .gallery2-items .project-plus{
 	#top: 38%;
+	
 	#left: 45%;
 }
 .gallery2-items .project-plus a,
