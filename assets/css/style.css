@@ -1238,7 +1238,7 @@ section{
 
 /*Rollongo*/
 .bg-page-header2{
-	background: url(../../assets/images/home01/bg-page-header2.jfif) no-repeat;
+	background: url(../../assets/images/home01/bg-page-header3.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -6170,6 +6170,23 @@ div#filters {
 	padding: .7rem;
 	display: flex;
 	transition: all .5s;
+}
+.icon-course-orange{
+	background: #f27d16;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+}
+.icon-course-red{
+	background: #c22622;
+	background: #;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
 }
 .icon-messenger {
 	background: #0181ff;
